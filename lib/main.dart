@@ -1,4 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:socila_balance_app/screens/home_page.dart';
+import 'package:socila_balance_app/screens/login_screen.dart';
+import 'package:socila_balance_app/screens/login_with_number.dart';
+import 'package:socila_balance_app/screens/main_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -15,7 +19,7 @@ class MyApp extends StatelessWidget {
         useMaterial3: true,
       ),
       debugShowCheckedModeBanner: false,
-      home: MainScreen(),
+      home: LoginWithNumber(),
     );
   }
 }
