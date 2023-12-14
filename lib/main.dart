@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:socila_balance_app/screens/delete_profile_screen.dart';
 import 'package:socila_balance_app/screens/grandfather_screen.dart';
 import 'package:socila_balance_app/screens/home_page.dart';
 import 'package:socila_balance_app/screens/login_screen.dart';
@@ -22,7 +23,7 @@ class MyApp extends StatelessWidget {
         useMaterial3: true,
       ),
       debugShowCheckedModeBanner: false,
-      home: const NoteScreen(),
+      home: const DeleteProfilePage(),
     );
   }
 }
